@@ -1,0 +1,3761 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/deployment/AddressDictator.sol": {
+      "lastModificationDate": 1675094903959,
+      "contentHash": "7e836c90f7fad8c66ef5875c1efa7fd3",
+      "sourceName": "contracts/L1/deployment/AddressDictator.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/resolver/Lib_AddressManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "AddressDictator"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/resolver/Lib_AddressManager.sol": {
+      "lastModificationDate": 1675094903952,
+      "contentHash": "684734f3098d69ba634f53ab58eaf4af",
+      "sourceName": "contracts/libraries/resolver/Lib_AddressManager.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_AddressManager"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1675098053248,
+      "contentHash": "4fe56b59ced59d87df6b796758f62895",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1675098052970,
+      "contentHash": "851485d5b925529b1a2f34a0be077891",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/resolver/Lib_ResolvedDelegateProxy.sol": {
+      "lastModificationDate": 1675094903952,
+      "contentHash": "090190e24c0623975cd9fa6ddda81da8",
+      "sourceName": "contracts/libraries/resolver/Lib_ResolvedDelegateProxy.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Lib_AddressManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_ResolvedDelegateProxy"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/resolver/Lib_AddressResolver.sol": {
+      "lastModificationDate": 1675094903952,
+      "contentHash": "34d1331425790d550286884af1599cff",
+      "sourceName": "contracts/libraries/resolver/Lib_AddressResolver.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Lib_AddressManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_AddressResolver"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/verification/BondManager.sol": {
+      "lastModificationDate": 1675094903958,
+      "contentHash": "583e3afd2baa4045ba6cd9e0cac26619",
+      "sourceName": "contracts/L1/verification/BondManager.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IBondManager.sol",
+        "../../libraries/resolver/Lib_AddressResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "BondManager"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/verification/IBondManager.sol": {
+      "lastModificationDate": 1675094903958,
+      "contentHash": "2e479e4d8a0dceb2f07e90ac077965e2",
+      "sourceName": "contracts/L1/verification/IBondManager.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "IBondManager"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/rollup/StateCommitmentChain.sol": {
+      "lastModificationDate": 1675094903960,
+      "contentHash": "7936cb9d5be12d5d1812974d3ae67abe",
+      "sourceName": "contracts/L1/rollup/StateCommitmentChain.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/codec/Lib_OVMCodec.sol",
+        "../../libraries/resolver/Lib_AddressResolver.sol",
+        "../../libraries/utils/Lib_MerkleTree.sol",
+        "./IStateCommitmentChain.sol",
+        "./ICanonicalTransactionChain.sol",
+        "../verification/IBondManager.sol",
+        "./IChainStorageContainer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "StateCommitmentChain"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/codec/Lib_OVMCodec.sol": {
+      "lastModificationDate": 1675094903948,
+      "contentHash": "6e2de6f520efb187c5e01c485675dba8",
+      "sourceName": "contracts/libraries/codec/Lib_OVMCodec.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../rlp/Lib_RLPReader.sol",
+        "../rlp/Lib_RLPWriter.sol",
+        "../utils/Lib_BytesUtils.sol",
+        "../utils/Lib_Bytes32Utils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_OVMCodec"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/utils/Lib_MerkleTree.sol": {
+      "lastModificationDate": 1675094903950,
+      "contentHash": "b671cbe24ef8f6422fae78d305417889",
+      "sourceName": "contracts/libraries/utils/Lib_MerkleTree.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_MerkleTree"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/rollup/IStateCommitmentChain.sol": {
+      "lastModificationDate": 1675094903960,
+      "contentHash": "f1641ee4161bb59a0d98cc22bc6d943f",
+      "sourceName": "contracts/L1/rollup/IStateCommitmentChain.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/codec/Lib_OVMCodec.sol"
+      ],
+      "versionPragmas": [
+        ">0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IStateCommitmentChain"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/rollup/ICanonicalTransactionChain.sol": {
+      "lastModificationDate": 1675094903961,
+      "contentHash": "7e4b90095962a399dc41c11860440180",
+      "sourceName": "contracts/L1/rollup/ICanonicalTransactionChain.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/codec/Lib_OVMCodec.sol",
+        "./IChainStorageContainer.sol"
+      ],
+      "versionPragmas": [
+        ">0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ICanonicalTransactionChain"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/rollup/IChainStorageContainer.sol": {
+      "lastModificationDate": 1675094903960,
+      "contentHash": "df41f85a23f3e783857d81c90c1a7e4a",
+      "sourceName": "contracts/L1/rollup/IChainStorageContainer.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IChainStorageContainer"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/rlp/Lib_RLPWriter.sol": {
+      "lastModificationDate": 1675094903951,
+      "contentHash": "53fff0651143b7a21aa3b90373eace72",
+      "sourceName": "contracts/libraries/rlp/Lib_RLPWriter.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_RLPWriter"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/rlp/Lib_RLPReader.sol": {
+      "lastModificationDate": 1675094903950,
+      "contentHash": "da043486f683fccce3edacfd5f84d98d",
+      "sourceName": "contracts/libraries/rlp/Lib_RLPReader.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_RLPReader"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/utils/Lib_BytesUtils.sol": {
+      "lastModificationDate": 1675094903950,
+      "contentHash": "1ebfdb02780beca3c418a3465c33dab1",
+      "sourceName": "contracts/libraries/utils/Lib_BytesUtils.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_BytesUtils"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/utils/Lib_Bytes32Utils.sol": {
+      "lastModificationDate": 1675094903949,
+      "contentHash": "d7f2a52fc5fed34eca6431d9b530995f",
+      "sourceName": "contracts/libraries/utils/Lib_Bytes32Utils.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_Bytes32Utils"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/codec/TestLib_OVMCodec.sol": {
+      "lastModificationDate": 1675094903954,
+      "contentHash": "a0fa84c6a1537a1baa76e8f5e22710fb",
+      "sourceName": "contracts/test-libraries/codec/TestLib_OVMCodec.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/codec/Lib_OVMCodec.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_OVMCodec"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/utils/TestLib_Bytes32Utils.sol": {
+      "lastModificationDate": 1675094903956,
+      "contentHash": "f8b4a1785f4855b6e8dc0284245d2f86",
+      "sourceName": "contracts/test-libraries/utils/TestLib_Bytes32Utils.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/utils/Lib_Bytes32Utils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_Bytes32Utils"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/utils/TestLib_BytesUtils.sol": {
+      "lastModificationDate": 1675094903955,
+      "contentHash": "c7af61d9e39c568af24833019a43d9c9",
+      "sourceName": "contracts/test-libraries/utils/TestLib_BytesUtils.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/utils/Lib_BytesUtils.sol",
+        "../../test-helpers/TestERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_BytesUtils"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-helpers/TestERC20.sol": {
+      "lastModificationDate": 1675094903953,
+      "contentHash": "9f14255e646fb4129b70a41583496aaa",
+      "sourceName": "contracts/test-helpers/TestERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestERC20"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1675098053075,
+      "contentHash": "2cd550cedf51b8d294607dad5023d717",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1675098053216,
+      "contentHash": "0eac3e1a83ee62326ca007811285b274",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1675098053217,
+      "contentHash": "aa1be06992a99bb7393b26a6af3c4dfb",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/rlp/TestLib_RLPWriter.sol": {
+      "lastModificationDate": 1675094903956,
+      "contentHash": "c078aa2c95ed7741ce73004359d71e01",
+      "sourceName": "contracts/test-libraries/rlp/TestLib_RLPWriter.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/rlp/Lib_RLPWriter.sol",
+        "../../test-helpers/TestERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_RLPWriter"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/trie/Lib_MerkleTrie.sol": {
+      "lastModificationDate": 1675094903951,
+      "contentHash": "06df0cb2a04ccaa207eff2314e68abec",
+      "sourceName": "contracts/libraries/trie/Lib_MerkleTrie.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Lib_BytesUtils.sol",
+        "../rlp/Lib_RLPReader.sol",
+        "../rlp/Lib_RLPWriter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_MerkleTrie"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/trie/TestLib_MerkleTrie.sol": {
+      "lastModificationDate": 1675094903957,
+      "contentHash": "b4a844179961973ab12080066c92f1e4",
+      "sourceName": "contracts/test-libraries/trie/TestLib_MerkleTrie.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/trie/Lib_MerkleTrie.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_MerkleTrie"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/trie/Lib_SecureMerkleTrie.sol": {
+      "lastModificationDate": 1675094903951,
+      "contentHash": "9237036ad9eefb061b60db7e0ce18fa0",
+      "sourceName": "contracts/libraries/trie/Lib_SecureMerkleTrie.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Lib_MerkleTrie.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_SecureMerkleTrie"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/trie/TestLib_SecureMerkleTrie.sol": {
+      "lastModificationDate": 1675094903957,
+      "contentHash": "936c2e65b95fb5c5dee1df181ad2700a",
+      "sourceName": "contracts/test-libraries/trie/TestLib_SecureMerkleTrie.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/trie/Lib_SecureMerkleTrie.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_SecureMerkleTrie"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/messaging/L1CrossDomainMessenger.sol": {
+      "lastModificationDate": 1675094903962,
+      "contentHash": "de88f0428fa79c2427c184e0de7aa297",
+      "sourceName": "contracts/L1/messaging/L1CrossDomainMessenger.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../standards/AddressAliasHelper.sol",
+        "../../libraries/resolver/Lib_AddressResolver.sol",
+        "../../libraries/codec/Lib_OVMCodec.sol",
+        "../../libraries/resolver/Lib_AddressManager.sol",
+        "../../libraries/trie/Lib_SecureMerkleTrie.sol",
+        "../../libraries/constants/Lib_DefaultValues.sol",
+        "../../libraries/constants/Lib_PredeployAddresses.sol",
+        "../../libraries/bridge/Lib_CrossDomainUtils.sol",
+        "./IL1CrossDomainMessenger.sol",
+        "../rollup/ICanonicalTransactionChain.sol",
+        "../rollup/IStateCommitmentChain.sol",
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "L1CrossDomainMessenger"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/standards/AddressAliasHelper.sol": {
+      "lastModificationDate": 1675094903962,
+      "contentHash": "dfcebe065f40cb205e841943e2b9b066",
+      "sourceName": "contracts/standards/AddressAliasHelper.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "AddressAliasHelper"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/constants/Lib_PredeployAddresses.sol": {
+      "lastModificationDate": 1675094903948,
+      "contentHash": "ea219bf29837d43a6498a13daceb70d9",
+      "sourceName": "contracts/libraries/constants/Lib_PredeployAddresses.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_PredeployAddresses"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/bridge/Lib_CrossDomainUtils.sol": {
+      "lastModificationDate": 1675094903947,
+      "contentHash": "35a23e9447dd16cc5b5089e42df568f3",
+      "sourceName": "contracts/libraries/bridge/Lib_CrossDomainUtils.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_CrossDomainUtils"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/messaging/IL1CrossDomainMessenger.sol": {
+      "lastModificationDate": 1675094903961,
+      "contentHash": "fa285be4ce676462c6f4c0cf2680248f",
+      "sourceName": "contracts/L1/messaging/IL1CrossDomainMessenger.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/codec/Lib_OVMCodec.sol",
+        "../../libraries/bridge/ICrossDomainMessenger.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "IL1CrossDomainMessenger"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/constants/Lib_DefaultValues.sol": {
+      "lastModificationDate": 1675094903948,
+      "contentHash": "e720f31d87c6525edc684a0ab787a121",
+      "sourceName": "contracts/libraries/constants/Lib_DefaultValues.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_DefaultValues"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol": {
+      "lastModificationDate": 1675098053520,
+      "contentHash": "c9cde6037fc8b1fe0ef04b79149ba733",
+      "sourceName": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuardUpgradeable"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol": {
+      "lastModificationDate": 1675098053511,
+      "contentHash": "cbe53d6b803c1102081e00b3a0418ea3",
+      "sourceName": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PausableUpgradeable"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1675098053505,
+      "contentHash": "403ce8273abde646bff81558ddf512ad",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeable"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/bridge/ICrossDomainMessenger.sol": {
+      "lastModificationDate": 1675094903946,
+      "contentHash": "96f84d060c3ea745d1a2f7a71b796f4f",
+      "sourceName": "contracts/libraries/bridge/ICrossDomainMessenger.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ICrossDomainMessenger"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1675098053478,
+      "contentHash": "b98e2f3a856e6e7f2106fb919bacab9e",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1675098053004,
+      "contentHash": "d42e87f4fba2b03ab4d3c14cb53d0c51",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1675098053047,
+      "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/messaging/L2CrossDomainMessenger.sol": {
+      "lastModificationDate": 1675094903945,
+      "contentHash": "e3f49ca79435c7f075f9d68b2773e716",
+      "sourceName": "contracts/L2/messaging/L2CrossDomainMessenger.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../standards/AddressAliasHelper.sol",
+        "../../libraries/bridge/Lib_CrossDomainUtils.sol",
+        "../../libraries/constants/Lib_DefaultValues.sol",
+        "../../libraries/constants/Lib_PredeployAddresses.sol",
+        "./IL2CrossDomainMessenger.sol",
+        "../predeploys/iOVM_L2ToL1MessagePasser.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "L2CrossDomainMessenger"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/messaging/IL2CrossDomainMessenger.sol": {
+      "lastModificationDate": 1675094903945,
+      "contentHash": "35282d09f5aad603b95cec5687cdfc60",
+      "sourceName": "contracts/L2/messaging/IL2CrossDomainMessenger.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/bridge/ICrossDomainMessenger.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "IL2CrossDomainMessenger"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/predeploys/iOVM_L2ToL1MessagePasser.sol": {
+      "lastModificationDate": 1675094903943,
+      "contentHash": "f322f733bf81a69e59834ec9866d351f",
+      "sourceName": "contracts/L2/predeploys/iOVM_L2ToL1MessagePasser.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "iOVM_L2ToL1MessagePasser"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/predeploys/OVM_L2ToL1MessagePasser.sol": {
+      "lastModificationDate": 1675094903943,
+      "contentHash": "25cd2b0625291ff58b984b0df2e93f02",
+      "sourceName": "contracts/L2/predeploys/OVM_L2ToL1MessagePasser.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./iOVM_L2ToL1MessagePasser.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "OVM_L2ToL1MessagePasser"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/bridge/CrossDomainEnabled.sol": {
+      "lastModificationDate": 1675094903947,
+      "contentHash": "a05ed3bab542641c34c766e5fe880e6c",
+      "sourceName": "contracts/libraries/bridge/CrossDomainEnabled.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ICrossDomainMessenger.sol"
+      ],
+      "versionPragmas": [
+        ">0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CrossDomainEnabled"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/messaging/L2StandardBridge.sol": {
+      "lastModificationDate": 1675094903946,
+      "contentHash": "0ea04d08488c00446a52ce296e493bca",
+      "sourceName": "contracts/L2/messaging/L2StandardBridge.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../L1/messaging/IL1StandardBridge.sol",
+        "../../L1/messaging/IL1ERC20Bridge.sol",
+        "./IL2ERC20Bridge.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+        "../../libraries/bridge/CrossDomainEnabled.sol",
+        "../../libraries/constants/Lib_PredeployAddresses.sol",
+        "../../standards/IL2StandardERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "L2StandardBridge"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/messaging/IL1StandardBridge.sol": {
+      "lastModificationDate": 1675094903961,
+      "contentHash": "ec9135affdc198fdd4027ca1e62ecdad",
+      "sourceName": "contracts/L1/messaging/IL1StandardBridge.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IL1ERC20Bridge.sol"
+      ],
+      "versionPragmas": [
+        ">0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IL1StandardBridge"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/messaging/IL1ERC20Bridge.sol": {
+      "lastModificationDate": 1675094903962,
+      "contentHash": "90ac5a66ef724ed17c5595bce555af43",
+      "sourceName": "contracts/L1/messaging/IL1ERC20Bridge.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IL1ERC20Bridge"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/messaging/IL2ERC20Bridge.sol": {
+      "lastModificationDate": 1675094903945,
+      "contentHash": "91be27c3630dc317ad12eb328374a358",
+      "sourceName": "contracts/L2/messaging/IL2ERC20Bridge.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "IL2ERC20Bridge"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/standards/IL2StandardERC20.sol": {
+      "lastModificationDate": 1675094903963,
+      "contentHash": "d60fcc6cb1415458d7858bc6b5ff0567",
+      "sourceName": "contracts/standards/IL2StandardERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "IL2StandardERC20"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts/utils/introspection/ERC165Checker.sol": {
+      "lastModificationDate": 1675098053054,
+      "contentHash": "1978094106e1418d89168dc2b57c2abe",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Checker"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1675098053207,
+      "contentHash": "9a04322bb8f6b8f2767d8358d1d2537b",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/predeploys/OVM_SequencerFeeVault.sol": {
+      "lastModificationDate": 1675094903942,
+      "contentHash": "f7aea4fcfe73cd9e17449d42be5c403a",
+      "sourceName": "contracts/L2/predeploys/OVM_SequencerFeeVault.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/constants/Lib_PredeployAddresses.sol",
+        "../messaging/L2StandardBridge.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "OVM_SequencerFeeVault"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/predeploys/OVM_ETH.sol": {
+      "lastModificationDate": 1675094903943,
+      "contentHash": "359d3f6f9ba066ac01724119211f5c11",
+      "sourceName": "contracts/L2/predeploys/OVM_ETH.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/constants/Lib_PredeployAddresses.sol",
+        "../../standards/L2StandardERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "OVM_ETH"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/standards/L2StandardERC20.sol": {
+      "lastModificationDate": 1675094903962,
+      "contentHash": "107dc9b442c896665e7b89d698f7ebc0",
+      "sourceName": "contracts/standards/L2StandardERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "./IL2StandardERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "L2StandardERC20"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol": {
+      "lastModificationDate": 1675098053268,
+      "contentHash": "d37406082a74a9b6b114de522fcb6349",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1675098052953,
+      "contentHash": "c5f6c4e4df069c789e7d84b4c3011913",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/messaging/L1StandardBridge.sol": {
+      "lastModificationDate": 1675094903961,
+      "contentHash": "bd5da04c0e3d23597620c258996530b1",
+      "sourceName": "contracts/L1/messaging/L1StandardBridge.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IL1StandardBridge.sol",
+        "./IL1ERC20Bridge.sol",
+        "../../L2/messaging/IL2ERC20Bridge.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "../../libraries/bridge/CrossDomainEnabled.sol",
+        "../../libraries/constants/Lib_PredeployAddresses.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "L1StandardBridge"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/predeploys/OVM_GasPriceOracle.sol": {
+      "lastModificationDate": 1675094903944,
+      "contentHash": "b294b962b2a6848b5772595c823fc0a2",
+      "sourceName": "contracts/L2/predeploys/OVM_GasPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "OVM_GasPriceOracle"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/messaging/L2StandardTokenFactory.sol": {
+      "lastModificationDate": 1675094903944,
+      "contentHash": "98d6658b95eace0e9289ef3c1434ee8c",
+      "sourceName": "contracts/L2/messaging/L2StandardTokenFactory.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../standards/L2StandardERC20.sol",
+        "../../libraries/constants/Lib_PredeployAddresses.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "L2StandardTokenFactory"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/standards/TestLib_AddressAliasHelper.sol": {
+      "lastModificationDate": 1675094903957,
+      "contentHash": "e303f5114618611a71f2857b726d6d85",
+      "sourceName": "contracts/test-libraries/standards/TestLib_AddressAliasHelper.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../standards/AddressAliasHelper.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.8"
+      ],
+      "artifacts": [
+        "TestLib_AddressAliasHelper"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/rollup/CanonicalTransactionChain.sol": {
+      "lastModificationDate": 1675094903960,
+      "contentHash": "f39a0aca7c0cb918800b42f98acb08dd",
+      "sourceName": "contracts/L1/rollup/CanonicalTransactionChain.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../standards/AddressAliasHelper.sol",
+        "../../libraries/codec/Lib_OVMCodec.sol",
+        "../../libraries/resolver/Lib_AddressResolver.sol",
+        "./ICanonicalTransactionChain.sol",
+        "./IChainStorageContainer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "CanonicalTransactionChain"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/bridge/TestLib_CrossDomainUtils.sol": {
+      "lastModificationDate": 1675094903954,
+      "contentHash": "f6b5f945037e3ecf5f247325d514ebff",
+      "sourceName": "contracts/test-libraries/bridge/TestLib_CrossDomainUtils.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/bridge/Lib_CrossDomainUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_CrossDomainUtils"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/rlp/TestLib_RLPReader.sol": {
+      "lastModificationDate": 1675094903956,
+      "contentHash": "3693663fe1415aee64b9a5a373c329bd",
+      "sourceName": "contracts/test-libraries/rlp/TestLib_RLPReader.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/rlp/Lib_RLPReader.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_RLPReader"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/rollup/ChainStorageContainer.sol": {
+      "lastModificationDate": 1675094903960,
+      "contentHash": "1c06b2a40d8a8c9a9282e61554fae60c",
+      "sourceName": "contracts/L1/rollup/ChainStorageContainer.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/utils/Lib_Buffer.sol",
+        "../../libraries/resolver/Lib_AddressResolver.sol",
+        "./IChainStorageContainer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ChainStorageContainer"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/libraries/utils/Lib_Buffer.sol": {
+      "lastModificationDate": 1675094903950,
+      "contentHash": "a5d1be6a7cf6f7892055a6e847cfc600",
+      "sourceName": "contracts/libraries/utils/Lib_Buffer.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lib_Buffer"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/utils/TestLib_Buffer.sol": {
+      "lastModificationDate": 1675094903955,
+      "contentHash": "92b78509bb051f5faf6912d091b0291f",
+      "sourceName": "contracts/test-libraries/utils/TestLib_Buffer.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/utils/Lib_Buffer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_Buffer"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-libraries/utils/TestLib_MerkleTree.sol": {
+      "lastModificationDate": 1675094903955,
+      "contentHash": "824b59b71a5fc500ec84d869fbcdf690",
+      "sourceName": "contracts/test-libraries/utils/TestLib_MerkleTree.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/utils/Lib_MerkleTree.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TestLib_MerkleTree"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/deployment/ChugSplashDictator.sol": {
+      "lastModificationDate": 1675094903959,
+      "contentHash": "54cbd8315ab5b3ebe333998be4fc8b11",
+      "sourceName": "contracts/L1/deployment/ChugSplashDictator.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../chugsplash/L1ChugSplashProxy.sol",
+        "../../chugsplash/interfaces/iL1ChugSplashDeployer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ChugSplashDictator"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/chugsplash/interfaces/iL1ChugSplashDeployer.sol": {
+      "lastModificationDate": 1675094903953,
+      "contentHash": "a5c32d6b065e6b916c25bdbc09045887",
+      "sourceName": "contracts/chugsplash/interfaces/iL1ChugSplashDeployer.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "iL1ChugSplashDeployer"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/chugsplash/L1ChugSplashProxy.sol": {
+      "lastModificationDate": 1675094903953,
+      "contentHash": "32d32e38570c04052997d93cf5f90bd7",
+      "sourceName": "contracts/chugsplash/L1ChugSplashProxy.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/iL1ChugSplashDeployer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "L1ChugSplashProxy"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/predeploys/OVM_DeployerWhitelist.sol": {
+      "lastModificationDate": 1675094903944,
+      "contentHash": "3405a093302f881b62f9feb82637dd14",
+      "sourceName": "contracts/L2/predeploys/OVM_DeployerWhitelist.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "OVM_DeployerWhitelist"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/predeploys/iOVM_L1BlockNumber.sol": {
+      "lastModificationDate": 1675094903943,
+      "contentHash": "5a8304e7b1e31c11993fbc973d6d21dc",
+      "sourceName": "contracts/L2/predeploys/iOVM_L1BlockNumber.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "iOVM_L1BlockNumber"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/test-helpers/FailingReceiver.sol": {
+      "lastModificationDate": 1675094903953,
+      "contentHash": "91829c35dcb9e08aa6bdf52bfd888070",
+      "sourceName": "contracts/test-helpers/FailingReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.9"
+      ],
+      "artifacts": [
+        "FailingReceiver"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/predeploys/WETH9.sol": {
+      "lastModificationDate": 1675094903942,
+      "contentHash": "2e2b1fead18bb42f42f50d7380bd6f84",
+      "sourceName": "contracts/L2/predeploys/WETH9.sol",
+      "solcConfig": {
+        "version": "0.5.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.6"
+      ],
+      "artifacts": [
+        "WETH9"
+      ]
+    }
+  }
+}

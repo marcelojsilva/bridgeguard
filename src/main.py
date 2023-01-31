@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from src.providers.connection_provider import connectionProvider
 from src.listeners.bridge_strange_mint_size import BridgeStrangeMintSize
 from src.listeners.bridge_messenger_owner_changed import BridgeMessengerOwnerChanged
+from src.listeners.bridge_unsual_value import BridgeUnsualValue
 
 load_dotenv("src/.env")
 
@@ -24,11 +25,12 @@ async def main():
     # Start listener
     bridgeStrangeMintSizeListener = BridgeStrangeMintSize(web3L1, contractAddress)
     bridgeMessengerOwnerChangedListener = BridgeMessengerOwnerChanged(web3L1, contractAddress)
-
+    bridgeUnsualValue = BridgeUnsualValue(web3L1, contractAddress)
     
     while True:
         await asyncio.create_task(bridgeStrangeMintSizeListener.listen())
         await asyncio.create_task(bridgeMessengerOwnerChangedListener.listen())
+        await asyncio.create_task(bridgeUnsualValue.listen())
 
         #show this only when status change
         if bridgeMessengerOwnerChangedListener.status == False:

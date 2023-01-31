@@ -10,4 +10,4 @@ class BridgeMessengerOwnerChanged(EventListener):
 
     def on_event(self, event):
         self.status = False
-        print("Listening to filter: OwnershipTransferred status:", self.status)
+        self.logger.info("Listening to filter: OwnershipTransferred status: %s", self.status)

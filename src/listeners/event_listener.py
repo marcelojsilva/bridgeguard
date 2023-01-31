@@ -2,9 +2,10 @@ from web3 import Web3
 import json
 
 class EventListener:
-    def __init__(self, web3, contract_address, filter):
+    def __init__(self, web3, contract_address, filter, blocknumber):
         self.w3 = web3
         self.contract_address = contract_address
+        self.blocknumber = blocknumber
         
         with open("src/listeners/abi.json") as abi_file:
             abi = json.load(abi_file)
@@ -13,7 +14,7 @@ class EventListener:
         self.filter = filter
 
     async def listen(self):
-        for event in self.contract.events[self.filter].createFilter(fromBlock='latest').get_new_entries():
+        for event in self.contract.events[self.filter].createFilter(fromBlock=self.blocknumber).get_new_entries():
             self.on_event(event)
 
     def on_event(self, event):

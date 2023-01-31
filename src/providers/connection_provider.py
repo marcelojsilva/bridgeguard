@@ -3,12 +3,17 @@ from web3 import Web3
 class connectionProvider:
     ERROR_CANT_CONNECT = "Could not connect to WS RPC server"
 
-    def __init__(self, name, url):
-        self.ws_name = name
+    def __init__(self, name, url, is_http=False):
+        self.name = name
         self.url = url
+        self.is_http = is_http
 
-    def connect(self, is_http=False):
-        web3 = is_http ? Web3(Web3.HTTPProvider(self.url)) : Web3(Web3.WebsocketProvider(self.url))
+    def connect(self):
+        if self.is_http:
+            web3 = Web3(Web3.HTTPProvider(self.url))
+        else:
+            web3 = Web3(Web3.WebsocketProvider(self.url))
+
         if not web3.isConnected():
             self.onError(self.ERROR_CANT_CONNECT)
             return

@@ -15,7 +15,7 @@ async def main():
     wsRpcL1Name = os.getenv("WS_RPC_L1_NAME")
     contractAddress = os.getenv("CONTRACT_ADDRESS")
 
-    web3L1 = wsProvider(wsRpcL1Name, wsRpcL1EndPoint).connect()
+    web3L1 = connectionProvider(wsRpcL1Name, wsRpcL1EndPoint, True).connect()
 
     # Start listener
     listener = BridgeStrangeMintSize(web3L1, contractAddress)

@@ -3,7 +3,9 @@ from .event_listener import EventListener
 class BridgeStrangeMintSize(EventListener):
     def __init__(self, web3, contract_address):
         filter = "StandardL2TokenCreated"
-        self.last_block_processed = 0
+        #get current block
+        self.last_block_processed = web3.eth.blockNumber
+        print(f"last_block_processed: {self.last_block_processed}")
         super().__init__(web3, contract_address, filter, 'latest')
 
     def on_event(self, event):

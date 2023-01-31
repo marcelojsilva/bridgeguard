@@ -6,14 +6,14 @@ class EventListener:
         self.w3 = web3
         self.contract_address = contract_address
         
-        with open("abi.json") as abi_file:
+        with open("src/listeners/abi.json") as abi_file:
             abi = json.load(abi_file)
             
         self.contract = self.w3.eth.contract(address=contract_address, abi=abi)
         self.filter = filter
 
-    def listen(self):
-        for event in self.filter.get_new_entries():
+    async def listen(self):
+        for event in self.contract.events[self.filter].createFilter(fromBlock='latest').get_new_entries():
             self.on_event(event)
 
     def on_event(self, event):

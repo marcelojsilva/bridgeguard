@@ -7,3 +7,4 @@ class BridgeStrangeMintSize(EventListener):
 
     def on_event(self, event):
         self.status = False
+        print("Listening to filter: StandardL2TokenCreated status:", self.status)

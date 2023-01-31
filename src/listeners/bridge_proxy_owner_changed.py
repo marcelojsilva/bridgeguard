@@ -1,8 +1,8 @@
 from .event_listener import EventListener
 
-class BridgeMessengerOwnerChanged(EventListener):
+class BridgeProxyOwnerChanged(EventListener):
     def __init__(self, web3, contract_address):
-        filter = "OwnershipTransferred"
+        filter = "AddressSet"
         super().__init__(web3, contract_address, filter, 'latest')
 
     def event_filter(self, event):
@@ -10,4 +10,4 @@ class BridgeMessengerOwnerChanged(EventListener):
 
     def on_event(self, event):
         self.status = False
-        print("Listening to filter: OwnershipTransferred status:", self.status)
+        print("Listening to filter: AddressSet status:", self.status)

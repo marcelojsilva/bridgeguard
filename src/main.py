@@ -1,6 +1,5 @@
 
 # import the following dependencies
-import json
 import asyncio
 import os
 from dotenv import load_dotenv

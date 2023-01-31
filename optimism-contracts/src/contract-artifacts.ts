@@ -60,6 +60,12 @@
         } catch {}
         
 
+        let EventListener
+        try {
+          EventListener = require('../artifacts/contracts/L1/messaging/Test.sol/EventListener.json')
+        } catch {}
+        
+
         let CanonicalTransactionChain
         try {
           CanonicalTransactionChain = require('../artifacts/contracts/L1/rollup/CanonicalTransactionChain.sol/CanonicalTransactionChain.json')
@@ -317,6 +323,7 @@ IL1ERC20Bridge,
 IL1StandardBridge,
 L1CrossDomainMessenger,
 L1StandardBridge,
+EventListener,
 CanonicalTransactionChain,
 ChainStorageContainer,
 ICanonicalTransactionChain,

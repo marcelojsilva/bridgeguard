@@ -2994,8 +2994,8 @@
       ]
     },
     "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L2/messaging/L2StandardTokenFactory.sol": {
-      "lastModificationDate": 1675094903944,
-      "contentHash": "98d6658b95eace0e9289ef3c1434ee8c",
+      "lastModificationDate": 1675125420109,
+      "contentHash": "47886ad96e87cae34952e31c3257e883",
       "sourceName": "contracts/L2/messaging/L2StandardTokenFactory.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -3755,6 +3755,52 @@
       ],
       "artifacts": [
         "WETH9"
+      ]
+    },
+    "/Users/alexandremelo/projects/0pwatcher/optimism-contracts/contracts/L1/messaging/Test.sol": {
+      "lastModificationDate": 1675125345992,
+      "contentHash": "a9a39513b530654f8b35cba03e027bfa",
+      "sourceName": "contracts/L1/messaging/Test.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates",
+                "devdoc",
+                "userdoc",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "EventListener"
       ]
     }
   }

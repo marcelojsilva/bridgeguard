@@ -2,8 +2,8 @@
 pragma solidity ^0.8.9;
 
 /* Contract Imports */
-import { L2StandardERC20 } from "../../standards/L2StandardERC20.sol";
-import { Lib_PredeployAddresses } from "../../libraries/constants/Lib_PredeployAddresses.sol";
+import {L2StandardERC20} from "../../standards/L2StandardERC20.sol";
+import {Lib_PredeployAddresses} from "../../libraries/constants/Lib_PredeployAddresses.sol";
 
 /**
  * @title L2StandardTokenFactory
@@ -19,11 +19,7 @@ contract L2StandardTokenFactory {
      * @param _name ERC20 name.
      * @param _symbol ERC20 symbol.
      */
-    function createStandardL2Token(
-        address _l1Token,
-        string memory _name,
-        string memory _symbol
-    ) external {
+    function createStandardL2Token(address _l1Token, string memory _name, string memory _symbol) external {
         require(_l1Token != address(0), "Must provide L1 token address");
 
         L2StandardERC20 l2Token = new L2StandardERC20(

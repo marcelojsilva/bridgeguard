@@ -1,4 +1,3 @@
-import json
 from web3 import Web3
 import src.log as log
 
@@ -13,6 +12,7 @@ class EventListener:
         self.contract_address = contract_address
         self.blocknumber = blocknumber
         self.last_block_processed = web3.eth.blockNumber
+        self.logger = log.get_logger(__name__)
 
         with open("src/listeners/abi.json") as abi_file:
             abi = json.load(abi_file)
@@ -20,6 +20,7 @@ class EventListener:
         self.contract = self.w3.eth.contract(address=contract_address, abi=abi)
         self.filter = filter
         mylogger.info("%s event listener started", self.filter)
+
 
     async def listen(self):
         for event in self.contract.events[self.filter].createFilter(fromBlock=self.blocknumber).get_new_entries():

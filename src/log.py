@@ -22,4 +22,3 @@ def get_file_handler():
    formatter = logging.Formatter('%(asctime)s : %(name)s - %(levelname)s - %(message)s')
    file_handler.setFormatter(formatter)
    return file_handler
-    

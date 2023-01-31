@@ -1,9 +1,8 @@
 import json
-import logging
 from web3 import Web3
+import src.log as log
 
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+mylogger = log.get_logger(__name__)
 
 class EventListener:
     status = True
@@ -20,15 +19,15 @@ class EventListener:
             
         self.contract = self.w3.eth.contract(address=contract_address, abi=abi)
         self.filter = filter
-        logger.info("%s event listener started", self.filter)
+        mylogger.info("%s event listener started", self.filter)
 
     async def listen(self):
         for event in self.contract.events[self.filter].createFilter(fromBlock=self.blocknumber).get_new_entries():
             if (self.event_filter(event) and event['blockNumber'] > self.last_block_processed):
-                logger.info("%s event received:", self.filter)
-                logger.info(" - block: %d", event['blockNumber'])
-                logger.info(" - tx: %s", event['transactionHash'].hex())
-                logger.info(" - contract: %s", self.contract_address)
+                mylogger.info("%s event received:", self.filter)
+                mylogger.info(" - block: %d", event['blockNumber'])
+                mylogger.info(" - tx: %s", event['transactionHash'].hex())
+                mylogger.info(" - contract: %s", self.contract_address)
 
                 self.on_event(event)
                 self.last_block_processed = event['blockNumber']

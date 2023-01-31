@@ -2,7 +2,10 @@ from web3 import Web3
 import json
 
 class EventListener:
+    status = True
+
     def __init__(self, web3, contract_address, filter, blocknumber):
+        print("Listening to filter: ", filter, "status: ", self.status)
         self.w3 = web3
         self.contract_address = contract_address
         self.blocknumber = blocknumber
@@ -15,7 +18,16 @@ class EventListener:
 
     async def listen(self):
         for event in self.contract.events[self.filter].createFilter(fromBlock=self.blocknumber).get_new_entries():
-            self.on_event(event)
+            if(self.event_filter(event)):
+                self.on_event(event)
+                #self.pretty_print(event)
+
+    def event_filter(self, event):
+        return True
 
     def on_event(self, event):
         pass
+
+    def pretty_print(self, event):
+        print(event)
+

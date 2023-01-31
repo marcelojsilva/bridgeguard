@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 from src.providers.connection_provider import connectionProvider
 from src.listeners.bridge_strange_mint_size import BridgeStrangeMintSize
+from src.listeners.bridge_messenger_owner_changed import BridgeMessengerOwnerChanged
 
 load_dotenv("src/.env")
 
@@ -15,13 +16,29 @@ async def main():
     wsRpcL1Name = os.getenv("WS_RPC_L1_NAME")
     contractAddress = os.getenv("CONTRACT_ADDRESS")
 
+    global status
+    status = True
+    global web3L1
     web3L1 = connectionProvider(wsRpcL1Name, wsRpcL1EndPoint, True).connect()
 
     # Start listener
-    listener = BridgeStrangeMintSize(web3L1, contractAddress)
+    bridgeStrangeMintSizeListener = BridgeStrangeMintSize(web3L1, contractAddress)
+    bridgeMessengerOwnerChangedListener = BridgeMessengerOwnerChanged(web3L1, contractAddress)
+
     
     while True:
-        await asyncio.create_task(listener.listen())
+        await asyncio.create_task(bridgeStrangeMintSizeListener.listen())
+        await asyncio.create_task(bridgeMessengerOwnerChangedListener.listen())
+
+        #show this only when status change
+        if bridgeMessengerOwnerChangedListener.status == False:
+            print("Listening to filter: bridgeMessengerOwnerChangedListener status: ", bridgeMessengerOwnerChangedListener.status)
+            bridgeMessengerOwnerChangedListener.status = True
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("Exit")
+
+
